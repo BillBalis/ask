@@ -1,0 +1,53 @@
+.grid{
+
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: min-content max-content auto min-content;
+    grid-template-areas: 
+    'header header'
+    'nav nav'
+    'aside main'
+    'footer footer';
+}
+
+header{
+
+    border: 2px solid rgb(9, 9, 9);
+    font-size: 50px;
+    background-color: rgb(220, 220, 220);
+}
+nav{
+
+    
+    background-color: rgb(60, 58, 58);
+    list-style-type: circle;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+       
+}
+aside{
+    
+    background-color: gray;
+    list-style-type: circle;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+
+}
+
+main{
+    background-color: rgb(112, 19, 19);
+    text-align: center;
+    margin: 1000;
+    padding: 0;
+    
+
+}
+
+.displaynone{
+
+    display: none;
+}
